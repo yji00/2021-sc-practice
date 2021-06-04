@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif; */
+
+/***************글로벌 설정*********************/
+html, body {font-size: 16px; font-family: 'Josefin Sans', sans-serif; height: 8000px;}
+hr {margin: 0;}
+.wrapper {margin: 0 1em; position: relative;}
+.wrapper-all {margin: auto; position: relative;}
+
+
+
+/***************header-wrapper*********************/
+.header-wrapper {width: 100%; position: absolute; z-index: 1; color: #fff;}
+.header-wrapper .topbar-wrap {display: flex; justify-content: space-between; align-items: center; padding: 1.25em 0;}
+.header-wrapper .topbar-wrap ul.topbar-left{display: flex;}
+.header-wrapper .topbar-wrap ul.topbar-left li {padding-right: 1em;}
+.header-wrapper .topbar-wrap ul.topbar-left li.store i {padding-right: .25em;}
+.header-wrapper .topbar-wrap ul.topbar-left li.mail i {padding: 0 .25em 0 1em;}
+.header-wrapper .topbar-wrap ul.topbar-left li.store {border-right: 1px solid #fff;}
+.header-wrapper .topbar-wrap ul.topbar-right{display: flex;}
+.header-wrapper .topbar-wrap ul.topbar-right li.faq {padding-left: 1em;}
+.header-wrapper .topbar-wrap ul.topbar-right li.gift {border-right: 1px solid #fff; padding: 0 1em;}
+
+.header-wrapper .bottom-wrap {display: flex; justify-content: space-between; margin-top: 1.75em;}
+.header-wrapper .bottom-wrap ul.menu-wrap {display: flex;}
+.header-wrapper .bottom-wrap ul.menu-wrap li.logo{margin-right: 3.5em; font-size: 24px; font-weight: bold;}
+.header-wrapper .bottom-wrap ul.menu-wrap li.menu{margin-right: 2em;}
+.header-wrapper .bottom-wrap ul.menu-wrap li.menu:hover{border-bottom: 2px solid #fff;}
+.header-wrapper .bottom-wrap ul.user-wrap {display: flex;}

@@ -1,0 +1,12 @@
+/* main-wrapper */
+.main-wrapper {width: 100%; height: 100vh;}
+.main-wrapper .slide-stage {width: 100%; height: 100vh;  }
+.main-wrapper .slide-wrap {position: relative; width: 100%; height: 100%;}
+.main-wrapper .slide {width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;}
+.main-wrapper .slid > img {min-width: 100%; min-height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.main-wrapper .slide .slide-body {width: 100%; position: absolute; top: 50%; transform: translateY(-50%); line-height: 1.5; right: 30%; display: flex; flex-direction: column; align-items: center;}
+.main-wrapper .slide .slide-body .slide-title {color: aliceblue; text-align: center;}
+.main-wrapper .slide .slide-body h2 {font-size: 3em; line-height: 1.2;}
+.main-wrapper .slide .slide-body h3 {font-size: .75em; letter-spacing: 2px;}
+.main-wrapper .slide .slide-body button {background-color: #111; color: aliceblue; font-size: .75em; padding: 1em 1.5em; margin-top: 1em; }
+.main-wrapper .slide .slide-body button:hover {background-color: #fff; color: #111;}
